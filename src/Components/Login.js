@@ -56,8 +56,8 @@ export default function Login(props) {
                         </div>
                     </form>
                     <br />
-                    <button className='logo'><img src={require('../Images/download.png')} />Sign in with Facebool</button>
-                    <button className='logo'><img src={require('../Images/images.png')} />Sign in with Google</button>
+                    <button className='logo'><img alt='facebook logo' src={require('../Images/download.png')} />Sign in with Facebool</button>
+                    <button className='logo'><img alt='google logo' src={require('../Images/images.png')} />Sign in with Google</button>
                     <p>Forgot Password?</p>
                 </Col>
                 <Col md={6}>

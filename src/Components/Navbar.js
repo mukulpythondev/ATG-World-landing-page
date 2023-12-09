@@ -35,7 +35,7 @@ export default function Navbar() {
             <div className='Nav'>
                 <Row className='row'>
                     <Col>
-                        <img src={require('../Images/logo-in.png')} className='navimg' />
+                        <img alt='logo' src={require('../Images/logo-in.png')} className='navimg' />
                     </Col>
                     <Col>
                         <Form>

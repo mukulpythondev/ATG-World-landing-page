@@ -16,7 +16,7 @@ export default function Posts(props) {
         const { image, heading, pic, name, para, info1, tag, loc } = item
         return (
             <div className='post border'>
-                {image && <img src={image} alt='photo' className='cardimg' />}
+                {image && <img src={image} alt='post' className='cardimg' />}
                 <div className='info'>
                     {x[tag][0]}<span className='heading'>{tag}</span>
                     <br />

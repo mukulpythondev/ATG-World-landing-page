@@ -84,8 +84,8 @@ export default function Signup(props) {
                         </div>
                     </form>
                     <br />
-                    <button className='logo'><img src={require('../Images/download.png')} />Sign up with Facebook</button>
-                    <button className='logo'><img src={require('../Images/images.png')} />Sign up with Google</button>
+                    <button className='logo'><img alt='facebook logo' src={require('../Images/download.png')} />Sign up with Facebook</button>
+                    <button className='logo'><img alt='google logo' src={require('../Images/images.png')} />Sign up with Google</button>
                     <p className='small'>By signing up, you agree to our Terms {"&"} conditions, Privacy policy</p>
                 </Col>
                 <Col md={6}>
